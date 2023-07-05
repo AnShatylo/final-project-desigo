@@ -1,0 +1,22 @@
+.header {
+    background-color: $secondary-color;
+    min-height: 100px;
+    padding: 20px 0 15px 0;
+    &__menu {
+        vertical-align: middle;
+        list-style-type: none;
+        text-align: center;
+        
+        &-item {
+            text-align: center;
+            display: inline-block;
+            padding: 0 25px 0px 25px;
+            a {
+                text-decoration: none;
+                color: $main-color;
+                font-size: 24px;
+                font-weight: 400; 
+            }
+        }
+    }
+}
