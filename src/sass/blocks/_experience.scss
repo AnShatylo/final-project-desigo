@@ -3,12 +3,11 @@
     min-height: 690px;
     padding: 0 0 160px 0;
     &__wrapper {
-        max-width: 100%;
-        display: inline-block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     &__image {
         position: relative;
-        float: left;
         width: 60%;
         padding-right: 24px;
         &:last-child {
@@ -35,11 +34,6 @@
                 font-weight: 400; 
             }
         }
-    }
-
-    &__description {
-        float: right;
-        width: 40%;
     }
     &__title {
         margin-bottom: 40px;

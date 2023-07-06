@@ -17,17 +17,8 @@
         margin-bottom: 15px;
     }
     &__wrapper {
-        display: inline-block;
-        width: 100%;
-    }
-    &__info {
-        float: left;
-        width: 40%;
-        &:nth-child(3) {
-            width: fit-content;
-        }
-        &_descr {
-            width: fit-content;
-        }
+        display: grid;
+        grid-template-columns: 310px 330px 225px;
+        column-gap: 113px;
     }
 }

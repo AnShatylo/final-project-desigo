@@ -7,12 +7,10 @@
         margin-bottom: 110px;
     }
     &__wrapper {
-        display: inline-block;
-        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     &__card {
-        float: left;
-        width: 33%;
         &:last-child {
             padding-right: 0;
         }
